@@ -21,7 +21,7 @@ padding:40px;
 h2 {
 font-size: 30px;
 font-family: sans-serif;
-width:500px;
+width:400px;
 border-right: 1px solid #0eb3a5;
 margin:0px;
 padding:40px;
@@ -32,13 +32,14 @@ font-size: 20px;
 }
 #grid{
 display: grid;
-grid-template-columns: 600px 1fr;
+grid-template-columns: 500px 1fr;
 }
 #grid h2{
 padding-left: 40px;
 }
 #grid #article{
 padding-left: 25px;
+padding-right: 100px;
 }
 @media(max-width:800px){
 #grid{
